@@ -5,7 +5,7 @@ project:
     - /index.qmd
 
 website:
-  title: "Quarto + Shinylive + Aerial Mzansi"
+  title: "Aerial Mzansi + Quarto + Shinylive"
   navbar:
     search: true
     right:
