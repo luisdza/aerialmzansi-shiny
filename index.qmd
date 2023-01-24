@@ -11,7 +11,7 @@ To display a running Shiny app, use a code block with `{shinylive-python}`.
 
 ```{shinylive-python}
 #| standalone: true
-#| components: [editor, viewer]
+#| components: [viewer, editor]
 #| layout: vertical
 #| viewerHeight: 420
 
