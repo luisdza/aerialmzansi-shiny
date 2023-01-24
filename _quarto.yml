@@ -1,21 +1,19 @@
 project:
   type: website
+  output-dir: docs
+  render:
+    - /index.qmd
+    - /sine.qmd
+    - /experimental.qmd
 
 website:
-  title: "aerialmzansi"
+  title: "Quarto + Shinylive"
   navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+    search: true
+    right:
+      - icon: github
+        href: https://github.com/quarto-ext/shinylive-quarto
 
 format:
   html:
-    theme: cosmo
-    css: styles.css
     toc: true
-
-editor: visual
-
-filters:
-  - shinylive
