@@ -3,16 +3,14 @@ project:
   output-dir: docs
   render:
     - /index.qmd
-    - /sine.qmd
-    - /experimental.qmd
 
 website:
-  title: "Quarto + Shinylive"
+  title: "Quarto + Shinylive + Aerial Mzansi"
   navbar:
     search: true
     right:
       - icon: github
-        href: https://github.com/quarto-ext/shinylive-quarto
+        href: https://github.com/luisdza/aerialmzansi-shiny
 
 format:
   html:
