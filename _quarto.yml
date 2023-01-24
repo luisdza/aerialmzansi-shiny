@@ -1,17 +1,23 @@
 project:
+  output-dir: _output
   type: website
-  output-dir: docs
-  render:
-    - /index.qmd
 
 website:
   title: "Aerial Mzansi + Quarto + Shinylive"
   navbar:
-    search: true
+    left:
+    - text: Aerial Mzansi Website
+      href: https://www.aerialmzansi.com/
     right:
       - icon: github
         href: https://github.com/luisdza/aerialmzansi-shiny
+  twitter-card: true
 
 format:
   html:
+    theme: cosmo
+    code-link: true
+    callout-appearance: simple
     toc: true
+    author-meta: "Luis de Sousa"
+    description-meta: "Aerial Mzansi"

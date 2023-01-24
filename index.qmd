@@ -5,7 +5,6 @@ filters:
   - shinylive
 ---
 
-
 ### Embedded Shiny application
 
 To display a running Shiny app, use a code block with `{shinylive-python}`.
@@ -30,7 +29,6 @@ app_ui = ui.page_fluid(
         ),
     ),
 )
-
 
 def server(input, output, session):
     @output
