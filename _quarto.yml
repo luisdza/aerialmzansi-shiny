@@ -4,7 +4,6 @@ project:
 
 website:
   title: "Aerial Mzansi + Quarto + Shinylive"
-  sidebar: false
   navbar:
     left:
     - text: Aerial Mzansi Website
@@ -20,5 +19,6 @@ format:
     code-link: true
     callout-appearance: simple
     toc: true
+    sidebar: false
     author-meta: "Luis de Sousa"
     description-meta: "Aerial Mzansi"
