@@ -4,6 +4,7 @@ project:
 
 website:
   title: "Aerial Mzansi + Quarto + Shinylive"
+  sidebar: false
   navbar:
     left:
     - text: Aerial Mzansi Website
